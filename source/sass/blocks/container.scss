@@ -1,0 +1,32 @@
+.container {
+  max-width: 1600px;
+  padding-left: 35px;
+  padding-right: 35px;
+  margin: 0 auto;
+
+  @include _1280 {
+    max-width: 1200px;
+  }
+
+  @include _1024 {
+    max-width: 940px;
+  }
+
+  @include _960 {
+    max-width: 820px;
+  }
+
+  @include _768 {
+    max-width: 680px;
+  }
+
+  @include _640 {
+    max-width: 100%;
+  }
+
+  @include _396 {
+    max-width: 320px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}

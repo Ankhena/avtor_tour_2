@@ -1,0 +1,24 @@
+.headline {
+  font-family: "Philosopher", "Arial", sans-serif;
+  font-size: 75px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #2a84f3;
+  margin: 0;
+
+  @include _1440 {
+    font-size: 45px;
+  }
+
+  @include _1280 {
+    font-size: 60px;
+  }
+
+  @include _640 {
+    font-size: calc(25px + 35*(100vw/1600));
+  }
+
+  @include _596 {
+    text-align: center;
+  }
+}

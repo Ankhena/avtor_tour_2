@@ -1,0 +1,23 @@
+.header-tours {
+  position: relative;
+  margin-top: 90px;
+  margin-left: 165px;
+  z-index: 30;
+
+  @include _960 {
+    margin-left: 35px;
+  }
+
+  @include _640 {
+    margin-left: 0;
+  }
+}
+
+.header-tours .subtitle,
+.header-tours .headline {
+  color: #ffffff;
+}
+
+.header-tours__period {
+  margin-top: 60px;
+}

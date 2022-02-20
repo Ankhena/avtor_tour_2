@@ -1,0 +1,35 @@
+.form {
+  width: 570px;
+  margin-left: 127px;
+  padding-top: 50px;
+  padding-bottom: 87px;
+
+  @include _1280 {
+    padding-top: 0;
+    margin-left: 80px;
+  }
+
+  @include _1108 {
+    margin-left: 35px;
+  }
+
+  @include _768 {
+    margin-left: 0;
+  }
+
+  @include _640 {
+    width: 100%;
+  }
+
+  @include _396 {
+    width: 280px;
+  }
+}
+
+.form__user {
+  width: 525px;
+
+  @include _596 {
+    max-width: 100%;
+  }
+}

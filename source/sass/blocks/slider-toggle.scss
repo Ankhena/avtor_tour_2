@@ -1,0 +1,29 @@
+/* Кнопки вперед и назад */
+
+
+button.slider-toggle__item  {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background-color: transparent;
+}
+
+.slider-toggle__item--prev,
+.slider-toggle__item--next {
+  width: 20px;
+  height: 35px;
+  background-image: url("../img/arrow_left2.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center center;
+  transition: 0.6s ease;
+
+  &:hover,
+  &:active {
+    opacity: 0.7;
+  }
+}
+
+.slider-toggle__item--next {
+  transform: rotate(180deg);
+}

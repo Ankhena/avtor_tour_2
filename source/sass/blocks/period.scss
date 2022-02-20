@@ -1,0 +1,46 @@
+.period {
+  display: flex;
+  padding-bottom: 150px;
+
+  @include _596 {
+    flex-direction: column;
+    text-align: center;
+  }
+}
+
+.period__wrapp {
+  display: flex;
+
+  @include _596 {
+    justify-content: center;
+    text-align: center;
+  }
+}
+
+.period p {
+  font-family: inherit;
+  font-size: 17px;
+  color: #ffffff;
+  margin: 0;
+}
+
+.period span {
+  font-family: "Philosopher","Arial",sans-serif;
+  font-size: 42px;
+  font-weight: 700;
+  color: #ffff00;
+}
+
+.period p:nth-child(1) {
+  margin-right: 18px;
+}
+
+.period__btn {
+  margin-left: 50px;
+
+  @include _596 {
+    margin-left: 0;
+    margin: 0 auto;
+    margin-top: 30px;
+  }
+}

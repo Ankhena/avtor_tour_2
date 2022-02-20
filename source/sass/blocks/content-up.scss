@@ -1,0 +1,95 @@
+.content-up {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  padding-top: 120px;
+
+  @include _1280 {
+    flex-direction: column;
+    padding-bottom: 50px;
+  }
+}
+
+.content-up--form {
+  width: 100%;
+
+  @include _1024 {
+    flex-direction: column;
+  }
+}
+
+.content-up__wrapp {
+  width: 812px;
+  height: 630px;
+}
+
+.content-up__reserv {
+  margin-bottom: 70px;
+}
+
+
+.content-up__contact {
+  width: 812px;
+  font-family: inherit;
+  font-size: calc(20px + 5*(100vw/1600));
+  line-height: 30px;
+  font-weight: 300;
+  margin: 0;
+  padding-left: 162px;
+  padding-bottom: 100px;
+  margin-top: 40px;
+
+  @include _1280 {
+    padding-bottom: 0;
+  }
+
+  @include _960 {
+    width: 100%;
+    padding-left: 35px;
+  }
+
+  @include _596 {
+    margin-top: 0;
+    padding-left: 0;
+  }
+
+  @include _480 {
+    text-align: center;
+  }
+}
+
+.content-up__contact p {
+  margin: 0;
+  margin-bottom: 40px;
+}
+
+  @include _480 {
+    .content-up__btn {
+      display: block;
+      margin: 0 auto;
+    }
+  }
+
+.content-up__desc {
+  margin-left: 68px;
+
+  @include _1440 {
+    margin-left: 45px;
+  }
+
+  @include _1280 {
+    margin-top: 70px;
+  }
+
+  @include _1024 {
+    margin-left: 35px;
+  }
+
+  @include _768 {
+    margin-left: 0;
+  }
+
+  @include _640 {
+
+  }
+}

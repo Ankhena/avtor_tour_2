@@ -1,0 +1,23 @@
+.background-bottom {
+  position: relative;
+  width: 100%;
+  background-image: url("../img/wave-bottom-about-volna.svg");
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-position: 0 0;
+  margin-top: 0;
+
+  @include _1280 {
+    background-image: url("../img/wave-bottom-about-volna-1280.svg");
+    margin-top: -80px;
+  }
+
+  @include _960 {
+    background-image: url("../img/wave-bottom-about-volna-960.svg");
+  }
+
+  @include _640 {
+    background-image: url("../img/wave-bottom-about-volna-640.svg");
+    margin-top: -100px;
+  }
+}

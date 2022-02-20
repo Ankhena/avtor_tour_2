@@ -1,0 +1,105 @@
+.field-item {
+  position: relative;
+  width: 496px;
+  margin-bottom: 30px;
+
+  @include _596 {
+    max-width: 100%;
+  }
+}
+
+.field-item label {
+  display: block;
+  font-family: inherit;
+  font-size: 25px;
+  margin-bottom: 13px;
+
+  @include _480 {
+    font-size: 18px;
+  }
+}
+
+.field-item input[type="text"],
+.field-item input[type="email"],
+.field-item select {
+  width: 100%;
+  height: 46px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  border: 1px solid #2a84f3;
+  border-radius: 8px;
+}
+
+.field-item textarea {
+  width: 100%;
+  height: 196px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  border: 1px solid #2a84f3;
+  border-radius: 8px;
+}
+
+.field-item select {
+  font-family: "Proxima Nova", "Arial", sans-serif;
+  font-size: 20px;
+  margin-bottom: 13px;
+
+  @include _480 {
+    font-size: 16px;
+  }
+}
+
+.field-item__required {
+  position: absolute;
+  display: block;
+  font-size: 25px;
+  font-weight: 300;
+  color: #2a84f3;
+  top: 38px;
+  right: -18px;
+}
+
+.field-item__arrow {
+  display: inline-block;
+  position: absolute;
+  content: url("../img/select-arrow.svg");
+  width: 45px;
+  height: 45px;
+  right: 0;
+  top: 44px;
+  pointer-events: none;
+
+  @include _480 {
+    top: 35px;
+  }
+}
+
+.field-item:last-of-type {
+  margin-bottom: 26px;
+}
+
+.field-item__notice {
+  font-family: inherit;
+  font-size: 17px;
+  margin: 0;
+  margin-bottom: 40px;
+
+  @include _596 {
+    max-width: 450px;
+  }
+}
+
+.field-item__notice a {
+  color: #000000;
+}
+
+  @include _480 {
+    .field-item__btn {
+      display: block;
+      margin: 0 auto;
+  }
+}

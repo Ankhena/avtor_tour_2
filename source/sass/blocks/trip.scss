@@ -1,0 +1,140 @@
+.trip {
+  position: relative;
+  width: 100%;
+
+  @include _1108 {
+    width: 640px;
+    margin: 0 auto;
+  }
+
+  @include _768 {
+    width: 100%;
+  }
+
+  @include _596 {
+
+  }
+
+  @include _480 {
+
+  }
+}
+
+.trip::after {
+  position: absolute;
+  content: "";
+  width: 603px;
+  height: 504px;
+  top: 500px;
+  left: 60px;
+  background-image: url("../img/Headphones_shadow.png");
+  background-size: 603px 504px;
+  background-repeat: no-repeat;
+  z-index: 9;
+
+  @include _1440 {
+    top: 440px;
+  }
+
+  @include _1280 {
+    top: 460px;
+    background-size: 80% auto;
+  }
+
+  @include _1108 {
+    display: none;
+  }
+}
+
+.trip__title {
+  margin-top: 260px;
+  margin-left: 880px;
+  margin-bottom: 50px;
+
+  @include _1440 {
+    margin-left: 670px;
+  }
+
+  @include _1280 {
+    margin-top: 150px;
+    margin-left: 0px;
+  }
+}
+
+.trip__title .subtitle,
+.trip__title .headline {
+  color: #ffffff;
+}
+
+.trip ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.trip__download {
+  position: relative;
+  width: 340px;
+  display: flex;
+  align-items: center;
+  margin-top: -170px;
+  margin-left: 770px;
+  z-index: 9;
+
+  @include _1440 {
+    margin-top: -180px;
+    margin-right: 0;
+  }
+
+  @include _1280 {
+    margin-left: 550px;
+    margin-top: -255px;
+  }
+
+  @include _1108 {
+    margin: 0 auto;
+    margin-top: 25px;
+  }
+
+  @include _480 {
+    width: 100%;
+    flex-direction: column;
+  }
+}
+
+.trip__download a {
+  width: 65px;
+  height: 48px;
+  margin-right: 16px;
+
+  @include _480 {
+    margin-right: 0;
+  }
+}
+
+.trip__download p {
+  font-family: inherit;
+  font-size: 17px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #0d417b;
+  margin: 0;
+  padding-top: 15px;
+
+  @include _480 {
+    font-size: 14px;
+    padding-top: 0;
+  }
+}
+
+  @include _768 {
+    .trip__download a > img {
+      display: block;
+      width: 80%;
+      height: auto;
+      margin: 0 auto;
+
+    @include _480 {
+      width: 70%;
+    }
+  }
+}

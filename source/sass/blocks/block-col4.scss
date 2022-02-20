@@ -1,0 +1,40 @@
+.block-col4 span {
+  position: relative;
+  font-family: "Proxima Nova", "Arial", sans-serif;
+  font-weight: 100;
+  font-size: calc(20px + 12*(100vw/1600));
+
+  @include _596 {
+    width: 100%;
+  }
+}
+
+.block-col4 span::after {
+  position: absolute;
+  content: url("../img/wave_inner.png");
+  left: 0;
+  top: 36px;
+
+  @include _596 {
+    top: 50px;
+    left: 50%;
+    transform:translate(-50%, -50%);
+  }
+}
+
+.block-col4 h4,
+.block-col4 p {
+  font-family: inherit;
+  font-size: 17px;
+  font-weight: 100;
+  margin: 0;
+  padding-right: 20px;
+}
+
+.block-col4 h4 {
+  font-family: "Proxima Nova", "Arial", sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-top: 55px;
+  margin-bottom: 30px;
+}

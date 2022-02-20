@@ -1,0 +1,281 @@
+.back-center {
+  position: relative;
+  width: 100%;
+  min-height: 2580px;
+  background-image: linear-gradient(to top, #f7f2b6, transparent 50%), url("../img/main_bali3.jpg"), url("../img/wave_center_bali.svg");
+  background-repeat: no-repeat;
+  background-size: 100% auto, 100% auto, 100% auto;
+  background-position: 0 0, 0 450px, 0 0;
+  margin-top: -315px;
+
+  @include _1440 {
+    margin-top: -230px;
+  }
+
+  @include _1280 {
+    background-image: linear-gradient(to top, #f7f2b6, transparent 50%), url("../img/main_bali3.jpg"), url("../img/wave_center_bali-1280.svg");
+    background-position: 0 0, 0 680px, 0 0;
+    margin-top: -200px;
+    padding-bottom: 100px;
+  }
+
+  @include _1108 {
+    height: 100vh;
+    background-image: linear-gradient(to top, #f7f2b6, transparent 50%), url("../img/main_bali3.jpg"), url("../img/wave_center_bali-1108.svg");
+    background-position: 0 0, 0 700px, 0 0;
+    background-position: 0 0, 0 50%, 0 0;
+  }
+
+  @include _960 {
+    background-image: linear-gradient(to top, #f7f2b6, transparent 50%), url("../img/main_bali3.jpg"), url("../img/wave_center_bali-960.svg");
+    background-position: 0 0, 0 48%, 0 0;
+    margin-top: -250px;
+  }
+
+  @include _768 {
+    background-size: 100% auto, 130% auto, 100% auto;
+    background-position: 0 0, 0 42%, 0 0;
+    margin-top: -350px;
+  }
+
+  @include _640 {
+    margin-top: -450px;
+  }
+
+  @include _596 {
+    min-height: 2700px;
+    background-image: linear-gradient(to top, #f7f2b6, transparent 30%), url("../img/main_bali3.jpg"), url("../img/wave_center_bali-596.svg");
+    background-size: 100% auto, 120% auto, 100% auto;
+    background-position: 0 0, 0 67%, 0 0;
+    margin-top: -420px;
+  }
+
+  @include _480 {
+    background-image: linear-gradient(to top, #f7f2b6, transparent 30%), url("../img/main_bali3.jpg"), url("../img/wave_center_bali-480.svg");
+    background-size: 100% auto, 120% auto, 100% auto;
+    background-position: 0 0, 0 64%, 0 0;
+    margin-top: -480px;
+  }
+
+  @include _396 {
+    background-image: linear-gradient(to top, #f7f2b6, transparent 30%), url("../img/main_bali3.jpg"), url("../img/wave_center_bali-396.svg");
+    background-size: 100% auto, 150% auto, 100% auto;
+    background-position: 0 0, 0 65%, 0 0;
+    margin-top: -520px;
+  }
+}
+
+.back-center::after {
+  position: absolute;
+  display: block;
+  content: "";
+  width: 760px;
+  height: 354px;
+  top: 4%;
+  right: 0;
+  background-image: url("../img/birds_bali.png");
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+
+  @include _1280 {
+    width: 455px;
+    height: 265px;
+    top: 3%;
+    background-size: 100% auto;
+  }
+
+  @include _960 {
+    background-image: none;
+  }
+}
+
+
+.back-center--russia {
+  position: relative;
+  width: 100%;
+  min-height: 2580px;
+  background-image: linear-gradient(to top, #b2cef7, transparent 50%), url("../img/main_russia_new-light.jpg"), url("../img/wave-center-russia.svg");
+  background-repeat: no-repeat, no-repeat, no-repeat;
+  background-size: 100% auto, 100% auto, 100% auto;
+  background-position: 0 0, 0 450px, 0 0;
+  margin-top: -315px;
+
+  @include _1440 {
+    margin-top: -230px;
+  }
+
+  @include _1280 {
+    background-image: linear-gradient(to top, #b2cef7, transparent 50%), url("../img/main_russia_new-light.jpg"), url("../img/wave-center-russia-1280.svg");
+    background-position: 0 0, 0 680px, 0 0;
+    background-position: 0 0, 0 680px, 0 0;
+    margin-top: -200px;
+  }
+
+  @include _1108 {
+    height: 100vh;
+    background-image: linear-gradient(to top, #b2cef7, transparent 50%), url("../img/main_russia_new-light.jpg"), url("../img/wave-center-russia-1108.svg");
+    background-position: 0 0, 0 680px, 0 0;
+    background-position: 0 0, 0 700px, 0 0;
+    background-position: 0 0, 0 43%, 0 0;
+  }
+
+  @include _960 {
+    background-image: linear-gradient(to top, #b2cef7, transparent 50%), url("../img/main_russia_new-light.jpg"), url("../img/wave-center-russia-960.svg");
+    background-repeat: no-repeat;
+    background-size: 100% auto, 100% auto, 100% auto;
+    background-position: 0 0, 0 40%, 0 0;
+    margin-top: -250px;
+  }
+
+  @include _768 {
+    background-size: 100% auto, 130% auto, 100% auto;
+    background-position: 0 0, 0 38%, 0 0;
+    margin-top: -350px;
+  }
+
+  @include _640 {
+    margin-top: -450px;
+  }
+
+  @include _596 {
+    min-height: 2700px;
+    background-image: linear-gradient(to top, #b2cef7, transparent 30%), url("../img/main_russia_new-light2.jpg"), url("../img/wave-center-russia-596.svg");
+    background-repeat: no-repeat;
+    background-size: 100% auto, 120% auto, 100% auto;
+    background-position: 0 0, 0 67%, 0 0;
+    margin-top: -420px;
+  }
+
+  @include _480 {
+    background-image: linear-gradient(to top, #b2cef7, transparent 30%), url("../img/main_russia_new-light2.jpg"), url("../img/wave-center-russia-480.svg");
+    background-size: 100% auto, 120% auto, 100% auto;
+    background-position: 0 0, 0 63%, 0 0;
+    margin-top: -480px;
+  }
+
+  @include _396 {
+    background-image: linear-gradient(to top, #b2cef7, transparent 30%), url("../img/main_russia_new-light2.jpg"), url("../img/wave-center-russia-396.svg");
+    background-repeat: no-repeat;
+    background-size: 100% auto, 150% auto, 100% auto;
+    background-position: 0 0, 0 63%, 0 0;
+    margin-top: -520px;
+  }
+}
+
+
+.back-center--russia::after {
+  width: 693px;
+  height: 561px;
+  top: 0;
+  right: 0;
+  background-image: url("../img/helicopter.png");
+  background-size: 100% auto;
+
+  @include _1280 {
+    top: -2%;
+    width: 520px;
+    height: 420px;
+  }
+
+  @include _1108 {
+    top: 0;
+    width: 415px;
+    height: 336px;
+  }
+
+  @include _960 {
+    background-image: none;
+  }
+}
+
+.back-center--world {
+  position: relative;
+  width: 100%;
+  min-height: 2580px;
+  background-image: linear-gradient(to top, #eecbd6, transparent 50%), url("../img/main_world_new-light.jpg"), url("../img/wave-center-world.svg");
+  background-repeat: no-repeat, no-repeat, no-repeat;
+  background-size: 100% auto, 100% auto, 100% auto;
+  background-position: 0 0, 0 450px, 0 0;
+  margin-top: -315px;
+
+  @include _1440 {
+    margin-top: -230px;
+  }
+
+  @include _1280 {
+    background-image: linear-gradient(to top, #eecbd6, transparent 50%), url("../img/main_world_new-light.jpg"), url("../img/wave-center-world-1280.svg");
+    background-position: 0 0, 0 680px, 0 0;
+    margin-top: -200px;
+  }
+
+  @include _1108 {
+    height: 100vh;
+    background-image: linear-gradient(to top, #eecbd6, transparent 50%), url("../img/main_world_new-light.jpg"), url("../img/wave-center-world-1108.svg");
+    background-position: 0 0, 0 700px, 0 0;
+    background-position: 0 0, 0 50%, 0 0;
+  }
+
+  @include _960 {
+    background-image: linear-gradient(to top, #eecbd6, transparent 50%), url("../img/main_world_new-light.jpg"), url("../img/wave-center-world-960.svg");
+    background-repeat: no-repeat;
+    background-size: 100% auto, 100% auto, 100% auto;
+    background-position: 0 0, 0 48%, 0 0;
+    margin-top: -250px;
+  }
+
+  @include _768 {
+    background-size: 100% auto, 130% auto, 100% auto;
+    background-position: 0 0, 0 42%, 0 0;
+    margin-top: -350px;
+  }
+
+  @include _640 {
+    margin-top: -450px;
+  }
+
+  @include _596 {
+    min-height: 2700px;
+    background-image: linear-gradient(to top, #eecbd6, transparent 30%), url("../img/main_world_new-light.jpg"), url("../img/wave-center-world-596.svg");
+    background-repeat: no-repeat;
+    background-size: 100% auto, 120% auto, 100% auto;
+    background-position: 0 0, 0 65%, 0 0;
+    margin-top: -420px;
+  }
+
+  @include _480 {
+    background-image: linear-gradient(to top, #eecbd6, transparent 30%), url("../img/main_world_new-light.jpg"), url("../img/wave-center-world-480.svg");
+    background-size: 100% auto, 120% auto, 100% auto;
+    background-position: 0 0, 0 63%, 0 0;
+    margin-top: -480px;
+  }
+
+  @include _396 {
+    background-image: linear-gradient(to top, #eecbd6, transparent 30%), url("../img/main_world_new-light.jpg"), url("../img/wave-center-world-396.svg");
+    background-size: 100% auto, 150% auto, 100% auto;
+    background-position: 0 0, 0 63%, 0 0;
+    margin-top: -520px;
+  }
+}
+
+
+.back-center--world::after {
+  position: absolute;
+  display: block;
+  content: "";
+  width: 665px;
+  height: 526px;
+  top: -2%;
+  right: 0;
+  background-image: url("../img/ball-full.png");
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+
+  @include _1280 {
+    width: 498px;
+    height: 394px;
+  }
+
+  @include _960 {
+    background-image: none;
+  }
+}

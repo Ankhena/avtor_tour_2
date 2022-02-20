@@ -1,0 +1,42 @@
+.back-background {
+  position: relative;
+  width: 100%;
+  min-height: 660px;
+  background-image: url("../img/top_bali.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  @include _1108 {
+    min-height: 750px;
+  }
+}
+
+.back-background--russia {
+  background-image: url("../img/top_russia_new.jpg");
+}
+
+.back-background--world {
+  background-image: url("../img/top_world.jpg");
+}
+
+.back-background--about {
+  position: relative;
+  width: 100%;
+  min-height: 203px;
+  background-image: url("../img/top_about-new.jpg");
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+
+  @include _1280 {
+    min-height: 300px;
+    background-size: cover;
+  }
+
+  @include _960 {
+    min-height: 400px;
+  }
+
+  @include _396 {
+    min-height: 530px;
+  }
+}

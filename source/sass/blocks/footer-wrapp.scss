@@ -1,0 +1,40 @@
+.footer-wrapp {
+  display: flex;
+  justify-content: space-between;
+  font-family: inherit;
+  font-size: calc(14px + 3*(100vw/1600));
+  color: #ffffff;
+  padding-bottom: 80px;
+
+  @include _1280 {
+    width: 100%;
+  }
+
+  @include _768 {
+    flex-direction: column;
+    text-align: center;
+  }
+}
+
+.footer-wrapp--about {
+  padding-top: 120px;
+
+  @include _768 {
+    padding-top: 100px;
+  }
+}
+
+.footer-wrapp p {
+  margin: 0;
+  margin-bottom: 26px;
+}
+
+  @include _768 {
+    .footer-wrapp p:last-of-type {
+      margin-top: 25px;
+  }
+}
+
+.footer-wrapp a {
+  color: #ffffff;
+}

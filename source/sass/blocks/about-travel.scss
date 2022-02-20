@@ -1,0 +1,24 @@
+.about-travel {
+  position: relative;
+  padding-top: 350px;
+
+  @include _1280 {
+    padding-top: 280px;
+  }
+
+  @include _960 {
+    padding-top: 230px;
+  }
+
+  @include _768 {
+    padding-top: 180px;
+  }
+
+  @include _640 {
+    padding-top: 150px;
+  }
+
+  @include _480 {
+    padding-top: 100px;
+  }
+}

@@ -1,0 +1,43 @@
+.container-inner {
+  padding-left: 200px;
+  padding-right: 200px;
+  margin: 0 auto;
+
+  @include _1496 {
+    padding-left: 150px;
+    padding-right: 150px;
+  }
+
+  @include _1440 {
+    padding-left: 80px;
+    padding-right: 80px;
+  }
+
+  @include _1280 {
+    width: 800px;
+  }
+
+  @include _1024 {
+    width: 640px;
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+
+  @include _768 {
+    width: 100%;
+    padding-left: 35px;
+    padding-right: 35px;
+  }
+
+  @include _640 {
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  @include _396 {
+    width: 300px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}

@@ -1,0 +1,231 @@
+.back-bottom {
+  position: relative;
+  width: 100%;
+  min-height: 1206px;
+  background-image: url("../img/bottom_bali.jpg"), url("../img/wave_bottom-bali.svg");
+  background-repeat: no-repeat, no-repeat;
+  background-size: 100% auto, 100% auto;
+  background-position: 0 100%, 0 0;
+  margin-top: -450px;
+
+  @include _1440 {
+    margin-top: -520px;
+  }
+
+  @include _1280 {
+    background-image: url("../img/bottom_bali.jpg"), url("../img/wave_bottom-bali-1280.svg");
+    margin-top: -450px;
+  }
+
+  @include _1108 {
+    margin-top: -200px;
+  }
+
+  @include _960 {
+    background-image: url("../img/bottom_bali.jpg"), url("../img/wave_bottom-bali-960.svg");
+    margin-top: -250px;
+  }
+
+  @include _768 {
+    background-size: 200% auto, 100% auto;
+    background-position: 100% 100%, 0 0;
+    margin-top: -320px;
+  }
+
+  @include _640 {
+    margin-top: -400px;
+  }
+
+  @include _596 {
+    background: url("../img/bottom_bali-mob.jpg"), #00316c;
+    background-repeat: no-repeat, no-repeat;
+    background-size: 200% auto, 100% auto;
+    background-position: 100% 100%, 0 0;
+    margin-top: -50px;
+  }
+
+  @include _480 {
+    margin-top: -130px;
+  }
+
+  @include _396 {
+    margin-top: -160px;
+  }
+}
+
+.back-bottom::after {
+  position: absolute;
+  content: "";
+  width: 854px;
+  height: 437px;
+  top: 6%;
+  right: 0;
+  background-image: url("../img/air_line.png");
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+
+  @include _1440 {
+    width: 683px;
+    height: 349px;
+  }
+
+  @include _1108 {
+    background-image: none;
+  }
+}
+
+
+.back-bottom--russia {
+  position: relative;
+  width: 100%;
+  min-height: 1206px;
+  background-image: url("../img/bottom_russia.jpg"), url("../img/wave-bottom-russia.svg");
+  background-repeat: no-repeat, no-repeat;
+  background-size: 100% auto, 100% auto;
+  background-position: 0 100%, 0 0;
+  margin-top: -450px;
+
+  @include _1440 {
+    margin-top: -520px;
+  }
+
+  @include _1280 {
+    background-image: url("../img/bottom_russia.jpg"), url("../img/wave-bottom-russia-1280.svg");
+    background-repeat: no-repeat, no-repeat;
+    background-size: 100% auto, 100% auto;
+    background-position: 0 100%, 0 0;
+    margin-top: -450px;
+  }
+
+  @include _1108 {
+    margin-top: -200px;
+  }
+
+  @include _960 {
+    background-image: url("../img/bottom_russia.jpg"), url("../img/wave-bottom-russia-960.svg");
+    margin-top: -250px;
+  }
+
+  @include _768 {
+    background-size: 200% auto, 100% auto;
+    background-position: 100% 100%, 0 0;
+    margin-top: -320px;
+  }
+
+  @include _640 {
+    margin-top: -450px;
+  }
+
+  @include _596 {
+    background: url("../img/bottom_russia.jpg"), #09121b;
+    background-repeat: no-repeat, no-repeat;
+    background-size: 200% auto, 100% auto;
+    background-position: 100% 100%, 0 0;
+    margin-top: -50px;
+  }
+
+  @include _480 {
+    margin-top: -130px;
+  }
+
+  @include _396 {
+    margin-top: -160px;
+  }
+}
+
+.back-bottom--russia::after {
+  content: "";
+  height: 616px;
+  top: 0;
+  right: 0;
+  position: absolute;
+  width: 1136px;
+  background-image: url("../img/faer.png");
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+
+  @include _1108 {
+    background-image: none;
+  }
+}
+
+.back-bottom--world {
+  position: relative;
+  width: 100%;
+  min-height: 1206px;
+  background-image: url("../img/bottom_world.jpg"), url("../img/wave-bottom-world.svg");
+  background-repeat: no-repeat, no-repeat;
+  background-size: 100% auto, 100% auto;
+  background-position: 0 100%, 0 0;
+  margin-top: -450px;
+
+  @include _1440 {
+    margin-top: -520px;
+  }
+
+  @include _1280 {
+    background-image: url("../img/bottom_world.jpg"), url("../img/wave-bottom-world-1280.svg");
+    background-repeat: no-repeat, no-repeat;
+    background-size: 100% auto, 100% auto;
+    background-position: 0 100%, 0 0;
+    margin-top: -450px;
+  }
+
+  @include _1108 {
+    margin-top: -200px;
+  }
+
+  @include _960 {
+    background-image: url("../img/bottom_world.jpg"), url("../img/wave-bottom-world-960.svg");
+    margin-top: -250px;
+  }
+
+  @include _768 {
+    background-size: 200% auto, 100% auto;
+    background-position: 100% 100%, 0 0;
+    margin-top: -320px;
+  }
+
+  @include _640 {
+    margin-top: -450px;
+  }
+
+  @include _596 {
+    background: url("../img/bottom_world.jpg"), #16469c;
+    background-repeat: no-repeat, no-repeat;
+    background-size: 200% auto, 100% auto;
+    background-position: 100% 100%, 0 0;
+    margin-top: -50px;
+  }
+
+  @include _480 {
+    margin-top: -130px;
+  }
+
+  @include _396 {
+    margin-top: -160px;
+  }
+}
+
+
+.back-bottom--world::after {
+  position: absolute;
+  content: "";
+  width: 699px;
+  height: 498px;
+  top: 4%;
+  right: 0;
+  background-image: url("../img/bird_world2.png");
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+
+  @include _1440 {
+    width: 524px;
+    height: 373px;
+    top: 8%;
+  }
+
+  @include _1108 {
+    background-image: none;
+  }
+}

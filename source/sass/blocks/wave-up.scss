@@ -1,0 +1,169 @@
+.wave-up {
+  position: relative;
+  max-width: 100%;
+  min-height: 1050px;
+  background-image: linear-gradient(to bottom, #d5f2f6, transparent 50%), url("../img/wave_top_bali.svg"), url("../img/water_bali.jpg");
+  background-repeat: no-repeat, no-repeat, no-repeat;
+  background-size: 100% auto, 100% auto, cover;
+  background-position: 0 100px, 0 0, 0 150px;
+  margin-top: -120px;
+
+  @include _1280 {
+    min-height: 1500px;
+    background-image: linear-gradient(to bottom, #d5f2f6, transparent 160%), url("../img/wave_top_bali-1280.svg"), url("../img/water_bali.jpg");
+    background-repeat: no-repeat, no-repeat, no-repeat;
+    background-size: 100% auto, 100% auto, cover;
+    background-position: 0 100px, 0 0, 0 150px;
+  }
+
+  @include _768 {
+    background-position: 0 100px, 0 30px, 0 80px;
+  }
+
+  @include _596 {
+    background-position: 0 70px, 0 30px, 0 80px;
+  }
+}
+
+.wave-up::after {
+  content: "";
+  height: 274px;
+  top: 0;
+  right: 73%;
+  position: absolute;
+  width: 313px;
+  background-image: url("../img/flower_bali.png");
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+
+  @include _1108 {
+    background-image: none;
+  }
+}
+
+.wave-up--russia {
+  position: relative;
+  max-width: 100%;
+  min-height: 1050px;
+  background-image: linear-gradient(to bottom, #cce0f7, transparent 50%), url("../img/wave-top-russia2.svg"), url("../img/water-russia-new.jpg");
+  background-repeat: no-repeat, no-repeat, no-repeat;
+  background-size: 100% auto, 100% auto, cover;
+  background-position: 0 100px, 0 0, 0 150px;
+  margin-top: -120px;
+
+  @include _1280 {
+    min-height: 1500px;
+    background-image: linear-gradient(to bottom, #cce0f7, transparent 160%), url("../img/wave-top-russia-1280.svg"), url("../img/water-russia-new.jpg");
+    background-repeat: no-repeat, no-repeat, no-repeat;
+    background-size: 100% auto, 100% auto, cover;
+    background-position: 0 100px, 0 0, 0 150px;
+  }
+
+  @include _768 {
+    background-position: 0 100px, 0 30px, 0 80px;
+  }
+
+  @include _596 {
+    background-position: 0 70px, 0 30px, 0 80px;
+  }
+}
+
+
+.wave-up--russia::after {
+  position: absolute;
+  display: block;
+  content: "";
+  width: 512px;
+  height: 740px;
+  top: -55%;
+  right: 2%;
+  background-image: url("../img/pine.png");
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+
+  @include _1280 {
+    top: -55%;
+  }
+
+  @include _960 {
+    background: none;
+  }
+}
+
+
+.wave-up--world {
+  position: relative;
+  max-width: 100%;
+  min-height: 1050px;
+  background-image: linear-gradient(to bottom, #bfe6e4, transparent 50%), url("../img/wave-top-world2.svg"), url("../img/water_world2.jpg");
+  background-repeat: no-repeat, no-repeat, no-repeat;
+  background-size: 100% auto, 100% auto,  cover;
+  background-position: 0 100px, 0 0, 0 150px;
+  margin-top: -120px;
+
+  @include _1280 {
+    min-height: 1500px;
+    background-image: linear-gradient(to bottom, #bfe6e4, transparent 160%), url("../img/wave-top-world-1280.svg"), url("../img/water_world.jpg");
+    background-repeat: no-repeat, no-repeat, no-repeat;
+    background-size: 100% auto, 100% auto, cover;
+    background-position: 0 100px, 0 0, 0 150px;
+  }
+
+  @include _768 {
+    background-position: 0 100px, 0 30px, 0 80px;
+  }
+
+  @include _596 {
+    background-position: 0 70px, 0 30px, 0 80px;
+  }
+}
+
+.wave-up--world::after,
+.wave-up--about::after,
+.wave-up--form::after {
+  background: none;
+}
+
+
+.wave-up--about,
+.wave-up--form {
+  position: relative;
+  max-width: 100%;
+  background-image: linear-gradient(to bottom, #d5f2f6, transparent 98%), url("../img/wave_top_bali.svg");
+  background-repeat: no-repeat, no-repeat;
+  background-size: 100% auto, 100% auto;
+  background-position: 0 100px, 0 0;
+  margin-top: -80px;
+
+    @include _1280 {
+      background-image: linear-gradient(to bottom, #d5f2f6, transparent 110%), url("../img/wave_top_bali-1280.svg");
+  }
+
+    @include _396 {
+      background-image: linear-gradient(to bottom, #d5f2f6, transparent 130%), url("../img/wave_top_bali-396.svg");
+      margin-top: -100px;
+  }
+}
+
+.wave-up--about::after,
+.wave-up--form::after {
+  position: absolute;
+  display: block;
+  content: "";
+  width: 475px;
+  height: 226px;
+  top: -12%;
+  right: 8%;
+  background-image: url("../img/blue-ball.png");
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+
+  @include _1280 {
+    top: -16%;
+
+  }
+
+  @include _960 {
+    background: none;
+  }
+}

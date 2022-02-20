@@ -1,0 +1,20 @@
+.album-image {
+  position: relative;
+  width: 818px;
+  height: 100%;
+  overflow: hidden;
+  margin: 0 auto;
+  padding-top: 58px;
+
+  @include _960 {
+    width: 100%;
+  }
+
+  @include _768 {
+    padding-top: 50px;
+  }
+
+  @include _640 {
+    padding: 0;
+  }
+}

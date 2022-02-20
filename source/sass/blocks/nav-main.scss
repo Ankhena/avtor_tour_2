@@ -1,0 +1,73 @@
+.nav-main {
+  display: flex;
+}
+
+ul.nav-main {
+  width: 410px;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+
+  @include _1280 {
+    width: 50%;
+    margin-right: 20px;
+  }
+
+  @include _960 {
+    width: 70%;
+    margin-top: 20px;
+  }
+
+  @include _768 {
+    width: 350px;
+  }
+
+  @include _480 {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  @include _396 {
+    display: block;
+    text-align: center;
+    margin-top: 15px;
+  }
+}
+
+.nav-main li {
+  font-family: inherit;
+  font-size: 17px;
+  font-weight: 700;
+  color: #ffffff;
+  text-transform: uppercase;
+  list-style-type: none;
+
+  @include _396 {
+    font-size: 21px;
+    margin-bottom: 35px;
+  }
+}
+
+.nav-main a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.nav-main__item-active {
+  position: relative;
+}
+
+.nav-main__item-active a::after {
+  position: absolute;
+  content: url("../img/wave_menu.png");
+  top: 35px;
+  left: 50%;
+  transform:translate(-50%, -50%);
+  text-align: center;
+  bottom: -30px;
+
+  @include _396 {
+    bottom: -25px;
+  }
+}
